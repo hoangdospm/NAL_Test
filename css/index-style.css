@@ -1,0 +1,318 @@
+html {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 12px;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+header {
+  text-align: center;
+}
+
+#logo-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4em;
+}
+
+#logo-content {
+  color: #868686;
+}
+
+#menu-bar {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#menu-bar #collapsibleNavbar {
+  border-top: 1.7px solid #454545;
+  border-bottom: 1.7px solid #454545;
+}
+
+#menu-bar a.nav-link {
+  padding: 1em 2em;
+  color: #454545;
+  font-weight: bold;
+}
+
+/* Styles for hot news*/
+
+#new-host {
+  margin-bottom: 30px;
+}
+
+.hot-news {
+  margin-bottom: 30px;
+}
+
+#top-viewed-1 {
+  margin-bottom: 30px;
+}
+
+#top-viewed-1, #top-viewed-2 {
+  position: relative;
+}
+
+.title-box {
+  width: 80%;
+  background-color: #ffffff;
+  position: absolute;
+  left: 10%;
+  bottom: 0%;
+  padding: 0.5em 1.5em;
+}
+
+.hot-category {
+  padding: 0.5em;
+  margin: 0;
+  color:#ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.75em;
+  position: absolute;
+  left: 2.25em;
+  bottom: 100%;
+}
+
+.red-box {
+  background-color: #f02929;
+}
+
+.purple-box {
+  background-color: #7e2acc;
+}
+
+.blue-box {
+  background-color: #24adfc;
+}
+
+.light-green-box {
+  background-color: #50a177;
+}
+
+.light-yellow-box {
+  background-color: #c9c04d;
+}
+
+.dark-box {
+  background-color: #454545;
+}
+
+.hot-title {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.hot-author-date {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.86em;
+  margin-bottom: 0.5em;
+}
+
+.hot-content {
+  color: #868686;
+  margin-bottom: 0;
+}
+
+/* Style for latest news */
+
+#latest-news {
+  margin-bottom: 45px;
+}
+
+.latest-news-heading h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.color-line {
+  margin-right: -15px;
+}
+
+.color-line hr {
+  border: 2px solid #f09329;
+}
+
+.line {
+  padding: 0;
+}
+
+.latest-news-item {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.latest-news-category {
+  display: inline-block;
+  padding: 0.5em;
+  font-size: 0.75em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  color: #ffffff;
+}
+
+.latest-news-title {
+  font-size: 1.15em;
+  font-weight: bold;
+}
+
+.latest-news-author-date {
+  font-size: 0.86em;
+  margin-bottom: 0.5em;
+}
+
+/* Style for popular news */
+
+#popular-news {
+  margin-bottom: 30px;
+}
+
+.popular-news-heading {
+  padding-right: 0;
+}
+
+.popular-news-heading h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#popular-news .color-line hr {
+  border: 2px solid #868686;
+}
+
+.popular-news-item {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.popular-news-item .popular-news-image {
+  padding-right: 0;
+}
+
+.popular-news-item .popular-news-image .img-fluid {
+  width: 100%;
+}
+
+.popular-news-category {
+  display: inline-block;
+  padding: 0.35em;
+  margin-bottom: 8px;
+  color: #ffffff;
+  
+}
+
+.popular-news-title {
+  font-size: 1.15em;
+  font-weight: bold;
+}
+
+/* Style for tags */
+
+.tags-heading {
+  padding-right: 0;
+}
+
+.tags-heading h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#tags .color-line hr {
+  border: 2px solid #24adfc;
+}
+
+.tags-item {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* Style for banner */
+
+#banner img {
+  margin-bottom: 30px;
+}
+
+/* Style for footer */
+
+#footer hr {
+  border: 1px solid #868686;
+}
+
+#copy-right {
+  padding-bottom: 20px;
+}
+
+#company-info-text {
+  margin: auto;
+}
+
+#company-info-text p {
+  margin: 0;
+}
+
+#copy-right p {
+  text-align: center;
+  margin: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  #logo-title {
+    font-size: 4em;
+  }
+
+  .hot-news {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .top-viewed {
+    margin-bottom: 30px;
+  }
+
+  #top-viewed-1 {
+    margin-bottom: 0;
+  }
+
+  .hot-title {
+    font-size: 1.15em;
+  }
+
+  .hot-category {
+    font-size: 1em;
+  }
+
+  .latest-news-title {
+    font-size: 1.15em;
+  }
+
+  .latest-news-category {
+    font-size: 1em;
+    margin-top: 0;
+  }
+
+  .popular-news-title {
+    font-size: 1.15em;
+  }
+
+  #banner .img-fluid {
+    max-width: 100%;
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  html {
+    font-size: 14px;
+  }
+
+  #top-viewed-1 {
+    margin-bottom: 30px;
+  }
+
+  .top-viewed {
+    margin-top: 30px;
+  }
+}
